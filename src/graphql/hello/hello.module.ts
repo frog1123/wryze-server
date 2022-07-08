@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { HelloResolver } from './hello.resolver';
+import { HelloResolver } from '@graphql/hello/hello.resolver';
 
 @Module({
   providers: [HelloResolver]
